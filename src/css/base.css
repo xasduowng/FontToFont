@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* {font: "Courier New"}, {font: "Arial Narrow"}, {font: "Gill Sans"}, {font:"Lucida Sans"}, {font:"Segoe UI"}, {font:"Times New Roman"}, {font:"Trebuchet MS"}, {font:"Arial"},
+{font:"Cambria"}*/
+
+textarea, input{
+    padding: 5px 12px;
+    outline: none;
+    width: -webkit-fill-available;
+}
+.col{
+    width: 1000px;
+    margin: 0px auto;
+    color: rgb(238, 232, 232);
+    max-width: 100%;
+}
+.padding{
+    padding: 20px;
+}
+
+
+:root{
+    --gap_flex: 5px 12px;
+}
+.dp-flex{
+    display: flex;
+    gap: var(--gap_flex);
+}
+.dp-flex_c{
+    display: flex;
+    gap: var(--gap_flex);
+    align-items: center;
+    justify-content: center;
+}
+.dp-grid{
+    display: grid;
+    gap: var(--gap_flex);
+}
+
+.close{
+    display: none;
+}

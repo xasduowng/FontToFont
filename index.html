@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/base.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Font to Font</title>
+</head>
+<body>
+    <div class="col">
+        <form action="" class="padding">
+            <ul class="nav-form padding dp-flex">
+                <div class="nav-form_font">
+                    <div class="form_font-text">
+                        <select name="fontFamily" id=""><!--JS--></select>
+                        <select name="fontSize" id=""><!--JS--></select>
+                    </div>
+                    <li class="dp-flex">
+                        <p>Phong cách hiển thị</p>
+                        <select name="" id="">
+                            <option value="0">Mặc định</option>
+                            <option value="0">viết thường</option>
+                            <option value="1">Viết Hoa</option>
+                            <option value="2">VIẾT IN HOA</option>
+                        </select>
+                    </li>
+
+                </div>
+                <div class="nav-form_mark">
+                    <li>Tiếng Việt không dấu</li>
+                    <li>Thêm gạch ngang</li>
+                </div>
+                <div class="nav-form_input close">
+                    <label for="form_input-search" class="dp-grid">
+                        Tìm kiếm
+                        <input type="text" id="form_input-search" placeholder="VD: * or \">
+                    </label>
+                    <label for="form_input-replace" class="dp-grid">
+                        Thay thế bằng
+                        <input type="text" placeholder="VD: ^ or &">
+                    </label>
+                    
+                </div>
+                <div class="nav-form_btn">Áp dụng</div>
+            </ul>
+            <div class="box-edit dp-flex">
+                <div>
+                    <textarea name="" id="" placeholder="Nội dung bạn muốn chuyển..."></textarea>
+                    <span class="box-edit_paste">Paste</span>
+                </div>
+                <div>
+                    <textarea name="" id="box-edit_result" placeholder="Nội dung đã được chuyển thành!"></textarea>
+                    <span class="box-edit_copy" >Copy</span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="web-fixed">
+        <img src="src/img/y_2021.jpg" alt="">
+    </div>
+    <script type="module" src="src/js/index.js"></script>
+</body>
+</html>

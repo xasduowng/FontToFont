@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 480px) {
+
+}
+@media only screen and (max-width: 479px) {
+    form.padding{
+        margin: 0;
+    }
+    .nav-form.dp-flex {
+        display: block;
+        padding-bottom: 64px;
+    }
+    select{
+        width: 100%;
+        margin: 8px 0px;
+    }
+    li.dp-flex{
+        display: block;
+    }
+    .nav-form_mark{
+        padding: 0;
+    }
+    .box-edit.dp-flex {
+        display: block;
+    }
+    textarea{
+        /* min-height: 160px; */
+    }
+}

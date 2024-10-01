@@ -1,0 +1,106 @@
+
+form.padding {
+    margin-top: 40px;
+    background: rgb(67, 66, 66);
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px black;
+}
+.nav-form{
+    list-style: none;
+    background: white;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    color: black;
+    position: relative;
+}
+.nav-form_font{
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 0 20px;
+}
+.nav-form_btn{
+    position: absolute;
+    right: 20px; bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+    padding: 6px 36px;
+    cursor: pointer;
+    background: rgb(29, 68, 127);
+    color: rgb(219, 215, 215);
+    box-shadow: 1px 2px 3px black;
+}
+.nav-form_mark{
+    border-right: 1px solid #ccc;
+    padding: 0 20px 0 8px;
+}
+.nav-form_mark li{
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    margin: 4px 0;
+    background:#c2d2d5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-form_mark li.choose {
+    border-left: 6px solid blue;
+}
+.nav-form_input{
+    width: 200px;
+}
+.nav-form_input label{
+    margin-bottom: 12px;
+    grid-template-columns: 3fr 2fr;
+}
+.nav-form_input input{
+    width: 100%;
+}
+
+.form_font-text{
+    margin-bottom: 12px;
+}
+.box-edit div{
+    position: relative;
+    width: 100%;
+}
+textarea{
+    min-height: 280px;
+    font-size: 16px;
+    padding: 12px;
+}
+.box-edit_paste, .box-edit_copy{
+    color: white;
+    background: rgb(48, 48, 50);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-align: center;
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+}
+.box-edit_paste{
+    display: block;
+
+}
+select{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: var(--gap_flex);
+}
+select:hover{
+    border: 1px solid blue;
+}
+.web-fixed{
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -2;
+}
+.web-fixed img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
